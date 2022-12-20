@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishab Das Portfolio</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/f84153f5cd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Rishab_Das1.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Certificates</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h2>Hi everyone, my name is Rishab <span>Das</span><br> I am a fresher.</h2>
+            <p>I am from Barrackpore, West Bengal.</p>
+        </div>
+    </div>
+</div>
+<!-- ---------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Image5.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subs">About Me</h1>
+                I have completed my graduation  in Computer Science Engineering from Haldia Institute of Technology, Haldia(2018-2022).</p>
+                <p> I have completed my graduation degree in 2022. I had passed my class 10 from Douglas Memorial Higher Secondary School, Indian Certificate of Secondary Education and class 12 from Sri Chaitanya Vidya Niketan,Central Board ofSecondary<span>Education.</span><br>I am now looking for a tech job</p>
+                <div class="tab-tech">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('courses')">Courses</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                </div>
+                <div class="tab-content active-tab" id="skills">
+                    <ul>
+                        <li><span>Coding</span><br>Core Java, Networking & Python</li>
+                        <li><span>DBMS</span><br>SQL</li>
+                        <li><span>Web Development</span><br>html,CSS,JavaScript,NodeJS</li>
+                        <li><span>Scripting Language</span><br> Batch Scripting</li>
+                        <li><span>Operating System Used</span><br> Linux Distributaries</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="courses">
+                    <ul>
+                        <li><span>Bits and Bites of Computer Networking</span><br>Google IT Support Professional Certificate</li>
+                        <li><span>Introduction to HTML5</span><br>Web Design for Everybody: Basics of Web Development & Coding Specialization</li>
+                        <li><span>Object Oriented Programming in Java</span><br>Object Oriented Programming in Java Specialization</li>
+                        <li><span>Network Security & Database Vulnerability</span><br> IBM Cybersecurity Analyst Professional Certificate</li>
+                        <li><span>Technical Support Fundamentals</span><br> Google IT Support Professional Certificate</li>
+                        <li><span>IT Security: Defense against the digital dark arts</span><br> Google IT Support Professional Certificate</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li><span>Haldia Institute of Technology(2018 to 2022)</span><br>Bachelor's Technology, Computer Science Engineering(CGPA-8.5)</li>
+                        <li><span>Sri Chaitanya Vidya Niketan(2017 to 2018)</span><br>Class 12, Science(Percentage-58%)</li>
+                        <li><span>Douglas Memorial Higher Secondary School(2015 to 2016)</span><br>Class 10(Percentage-66%)</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="projects">
+                    <ul>
+                        <li><span>Keylogger</span><br>Python and Pycharm</li>
+                        <li><span>Library Management System</span><br>Eclipse,Java DB(Derby DB),Java,XAMPP</li>
+                        <li><span>Image Manipulation</span><br>Python,Visual Studio <Code></Code></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------Certificates------------ -->
+
+<div id="certificates">
+    <div class="container">
+        <h1 class="sub-title">Certification</h1>
+        <div class="certificates-list">
+            <div>
+                <i class="fa-brands fa-raspberry-pi"></i>
+                <h2>IOT using Raspberry Pi</h2>
+                <p>The Internet of Things (IoT) is a scenario in which objects, animals or people are provided with single identifiers and the capability to automatically transfer and the capability to<br> automatically transfer data to a network without requiring human-to-human or human-to-computer communication.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-android"></i>
+                <h2>Android App Development</h2>
+                <p> Android is an open-source OS based on Linux with a Java programming interface. Android is primarily used in smartphones and tablets.Android is a powerful open-source operating system<br> that open-source provides immense features.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-linux"></i>
+                <h2>Open Source Software(Linux)</h2>
+                <p>Open Source can be a piece of software that you download for free from the Internet, a type of software license, a community of developers, or even an ideology of access and participation.<br> Programmers who have access to a computer program's source code can improve that program by adding features to it or fixing parts that don't always work correctly.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------Portfolio-------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work_2.png">
+                <div class="layer">
+                    <h3>IoT using Raspberry Pi and a LED Light</h3>
+                    <p>Lighting a led light connecting through Internet. If the server is connected through internet then the leb light will glow else it will not glow.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Android App Development using Eclipse IDE</h3>
+                    <p>We have created an app for our tech fest so that everyone who wants to participate, the participants(he/she) can register on online mode with no problem as all the rules were mentioned for registration. The app is available on play store.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work_1.png">
+                <div class="layer">
+                    <h3>Open Source Software(Linux) using Debian Linux</h3>
+                    <p>In this course we have done how to secure our ip address and network, how to prevent from been spoofing or phishing attacks.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ------------Contact-------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="sub-title">Contact Me</h2>
+                <p><i class="fa-solid fa-paper-plane"></i> rishab.dass.112@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 6290774603</p>
+                <div class="social-icon">
+                    <a href="https://github.com/rishab021"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a> 
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <a href="images/Rishab Das(new resume).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name"  placeholder="Your Name" required>
+                    <input type="email" name="email"  placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Rishab. Made with the help of <i class="fa-solid fa-heart"></i> easy tutorials</p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-content");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+</body>
+</html>
